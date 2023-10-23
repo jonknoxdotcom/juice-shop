@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_juice_shop_1698057244691-pr-trigger-input-set
+  identifier: Build_juice_shop_1698057244691prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_juice_shop_1698057244691
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
