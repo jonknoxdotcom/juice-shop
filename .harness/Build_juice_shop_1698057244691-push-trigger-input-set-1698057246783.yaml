@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_juice_shop_1698057244691-push-trigger-input-set
+  identifier: Build_juice_shop_1698057244691pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_juice_shop_1698057244691
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
